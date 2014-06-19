@@ -94,6 +94,9 @@ function fadedEls(el, shift) {
                     alert('Email has sent to your mailbox.');
                 }).fail(function (err) {
                     alert('Network error');
+                }).always(function() {
+                    $('#email-device').hide();
+                    $("#get-app").show();
                 });
             } else {
                 alert('Error message format');
