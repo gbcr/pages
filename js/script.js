@@ -87,6 +87,19 @@ function fadedEls(el, shift) {
            $('#email-device').show();
         });
 
+        $('#sent-btn').click(function (event) {
+            var email = $('#email-input').val();
+            if (/.+@.+/i.test(email)) {
+                $.post( "mail/" + email, function ( data ) {
+                    alert('Email has sent to your mailbox.');
+                }).fail(function (err) {
+                    alert('Network error');
+                });
+            } else {
+                alert('Error message format');
+            }
+        });
+
         $('#cancel-email').click(function(event) {
            $('#email-device').hide();
            $("#get-app").show();
