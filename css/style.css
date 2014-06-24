@@ -1918,7 +1918,7 @@ body > section.v-center > div {
 #cancel-email img{width:25px;}
 
 .col-sm-7 .features{
-  height: 610px;
+  height: 580px;
   display: table;
 }
 .col-sm-7 .features .box{
@@ -1993,9 +1993,12 @@ input.form-control{
     border-radius: 6px;
   }
 
-  .col-sm-3.col-sm-offset-1.text-center{
+  .content-10 .col-sm-4{
     display: none;
   }
+  /*.col-sm-4.col-sm-offset-1.text-center{
+    display: none;
+  }*/
 
   .hero-unit span{
     /*display: none;*/
