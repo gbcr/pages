@@ -73,11 +73,11 @@ function fadedEls(el, shift) {
             window.mobile = true;
         } else {
             window.mobile = false;
-            fadedEls($('.content-sufferfromemail h3'), 'h/2');
-            fadedEls($('.content-10.feature-one .container'), 'h/3');
-            fadedEls($('.content-10.feature-two .container'), 'h/3');
-            fadedEls($('.content-10.feature-three .container'), 'h/3');
-            fadedEls($('.header-14-sub .container'), 'h/3');
+            // fadedEls($('.content-sufferfromemail h3'), 'h/2');
+            // fadedEls($('.content-10.feature-one .container'), 'h/3');
+            // fadedEls($('.content-10.feature-two .container'), 'h/3');
+            // fadedEls($('.content-10.feature-three .container'), 'h/3');
+            // fadedEls($('.header-14-sub .container'), 'h/3');
             // fadedEls($('.features'), 'h');
         }
 

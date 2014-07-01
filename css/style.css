@@ -421,8 +421,11 @@ label {
 }
 .hero-unit span{
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   text-shadow:2px 1px 2px #000;
+  display: inline-block;
+  width: 410px;
+  line-height: 1.5;
 }
 h4,
 h5,
@@ -927,7 +930,7 @@ section * {
   background-color: #6c7778;
 }
 .header-4 .btns .btn {
-  padding:10px 90px;
+  /*padding:10px 90px;*/
   font-weight: 500;
 }
 .header-4 .btns .btn + .btn {
@@ -1785,31 +1788,31 @@ body > section.v-center > div {
   color: #ffffff;
 }
 @media (max-width: 480px) {
-  .header-14-sub .hero-unit {
+  .hero-unit {
     margin: 0 auto 65px;
   }
 }
-.header-14-sub .background {
+.background {
   /*background-image: url("../../../common-files/img/NY_001.jpg");*/
   opacity: 20;
   /*filter: alpha(opacity=2000);*/
   /*opacity: 0.2;*/
   /*filter: alpha(opacity=20);*/
 }
-.header-14-sub .subscribe-form form {
+.subscribe-form form {
   margin: 40px 0 10px;
 }
-.header-14-sub .subscribe-form form .input-group input[type="text"] {
+.subscribe-form form .input-group input[type="text"] {
   border-color: white;
   border-right: 0;
   min-height: 0;
 }
 @media (max-width: 480px) {
-  .header-14-sub .subscribe-form form .input-group input[type="text"] {
+.subscribe-form form .input-group input[type="text"] {
     min-height: 41px;
   }
 }
-.header-14-sub .subscribe-form form .input-group .btn {
+.subscribe-form form .input-group .btn {
   padding-left: 30px;
   padding-right: 30px;
   margin-left: 0;
@@ -1824,7 +1827,7 @@ body > section.v-center > div {
   font-weight: 500;
 }
 @media (max-width: 480px) {
-  .header-14-sub .subscribe-form form .input-group .btn {
+  .subscribe-form form .input-group .btn {
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
@@ -1945,6 +1948,7 @@ body > section.v-center > div {
 
 .btns.get-app{
   margin-top:50px;
+  width: 350px;
 }
 
 .content-sufferfromemail h3{
@@ -1965,7 +1969,7 @@ body > section.v-center > div {
 
 .button-note{
   font-size: 13px;
-  text-align: left;
+  text-align: center;
   color: #eee;
   margin: 2px;
   text-shadow: 1px 1px 1px #333;
@@ -1973,6 +1977,14 @@ body > section.v-center > div {
 
 input.form-control{
   color:#333;
+}
+#email-device{
+  width: 350px;
+  margin-top: 50px;
+  height: 66px;
+}
+#cancel-email{
+  cursor:pointer;
 }
 
 @media (max-width: 480px) {
@@ -2034,6 +2046,32 @@ input.form-control{
 
   .header-14-sub {
     padding-bottom: 50px;
+  }
+  .hero-unit span{
+    font-size: 18px;
+    /*font-weight: 300;*/
+    text-shadow:2px 1px 2px #000;
+    /*display: inline-block;*/
+    width: auto;
+    margin: 10px auto 20px;
+  }
+  .hero-unit{
+    text-align: center;
+  }
+  #get-app{
+    width: auto;
+  }
+  #email-device-btn{
+    display: none;
+  }
+  #email-device{
+    display: none;
+  }
+  #email-device-btn{
+    display: none;
+  }
+  .btns.get-app .btn.get-beta{
+    width: auto;
   }
 }
 
