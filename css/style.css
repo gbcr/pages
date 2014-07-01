@@ -1800,7 +1800,7 @@ body > section.v-center > div {
   /*filter: alpha(opacity=20);*/
 }
 .subscribe-form form {
-  margin: 40px 0 10px;
+  /*margin: 40px 0 10px;*/
 }
 .subscribe-form form .input-group input[type="text"] {
   border-color: white;
@@ -1981,7 +1981,7 @@ input.form-control{
 #email-device{
   width: 350px;
   margin-top: 50px;
-  height: 66px;
+  /*height: 66px;*/
 }
 #cancel-email{
   cursor:pointer;
