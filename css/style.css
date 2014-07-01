@@ -2053,7 +2053,7 @@ input.form-control{
     text-shadow:2px 1px 2px #000;
     /*display: inline-block;*/
     width: auto;
-    margin: 10px auto 20px;
+    margin: 10px auto;
   }
   .hero-unit{
     text-align: center;
@@ -2072,6 +2072,12 @@ input.form-control{
   }
   .btns.get-app .btn.get-beta{
     width: auto;
+  }
+  .btns.get-app{
+    margin-top:0;
+  }
+  .header-4 .hero-unit{
+    margin:0 0 20px;
   }
 }
 
@@ -2156,7 +2162,6 @@ input.form-control{
     padding:0 0 35px 0;
   }
 
-  .header-4 .hero-unit{margin:0 0 30px 0;}
   .header-4 .hero-unit p{display: inline-block;margin-left:20px;}
   .header-4 .hero-unit span{display: block;margin:15px auto 0};
 
