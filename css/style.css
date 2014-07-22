@@ -930,7 +930,7 @@ section * {
   background-color: #6c7778;
 }
 .header-4 .btns .btn {
-  /*padding:10px 90px;*/
+  padding:10px 90px;
   font-weight: 500;
 }
 .header-4 .btns .btn + .btn {
