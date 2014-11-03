@@ -1,0 +1,339 @@
+.submit-box {
+    width: 555px;
+    margin: 0 auto;
+    input {
+        outline: none;
+        border: none;
+        border-radius: 6px;
+        width: 398px;
+        height: 60px;
+        padding: 0 20px;
+        font-size: 18px;
+        float: left;
+        margin-right: 15px;
+        color: #4A4A4A;
+    }
+
+    button {
+        border: none;
+        outline: none;
+        border-radius: 6px;
+        width: 130px;
+        height: 60px;
+        line-height: 60px;
+        background-color: #0096DE;
+        font-size: 20px;
+        float: left;
+
+        &:hover {
+            background-color: #0286C5;
+        }
+    }
+
+    button[disabled] {
+        cursor: pointer;
+    }
+}
+
+.kv-container {
+    height: 680px;
+    text-align: center;
+    position: relative;
+
+    .nav {
+        width: 100%;
+        margin-top: 35px;
+
+
+            /* Translate -100% to move off screen */
+        -webkit-transform: translateY(-100%);
+            -ms-transform: translateY(-100%);
+                transform: translateY(-100%);
+
+        
+
+    }
+
+    .affix.nav {
+        /* Animations */
+        -webkit-transition: transform 300ms ease-in-out;
+           -moz-transition: transform 300ms ease-in-out;
+                transition: transform 300ms ease-in-out;
+        width: 100%;
+        background-color: #000;
+        opacity: .8;
+        height: 90px;
+        left:0;
+        top:0;
+        z-index: 50;
+        margin-top: 0;
+        /* Translate back to 0%; */
+    -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+            transform: translateY(0%);
+        
+        .nav-content {
+            width: 850px;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+    }
+
+    .kvs {
+        list-style: none;
+    }
+
+    .kv-content {
+        width: 850px;
+        margin: 0 auto;
+        padding-top: 35px;
+    }
+
+    .logo {
+        float: left;
+        img {
+            position: relative;
+            top: -13px;
+            margin-right: 6px;
+        }
+        span {
+            font-size: 38px;
+        }
+    }
+
+    .medias {
+        float: right;
+        padding-top: 18px;
+
+        img {
+            opacity: .8;
+
+            &:hover {
+                cursor: pointer;
+                opacity: 1;
+            }
+        }
+
+        .fb {
+            margin-right: 31px;
+        }
+    }
+
+    h4 {
+        font-family: "Lucida Grande";
+        font-size: 40px;
+        position: absolute;
+        top: 170px;
+        left: 50%;
+        margin-left: -385px;
+        width: 770px;
+    }
+
+    p {
+        width: 600px;
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        margin-left: -300px;
+        font-size: 20px;
+    }
+
+    .submit-box {
+        position: absolute;
+        bottom: 220px;
+        left: 50%;
+        margin-left: -277px;
+
+        .error {
+            position: absolute;
+            bottom: -25px;
+            left: 50px;
+            font-size: 16px;
+            opacity: .7;
+        }
+    }
+
+    .more {
+        position: absolute;
+        bottom: 45px;
+        left: 50%;
+        margin-left: -50px;
+        font-size: 18px;
+
+        &:hover {
+            cursor: pointer;
+        }
+        span {
+            display: block;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.slider-wrapper{
+    padding: 70px 0 0px;
+
+    h1 {
+        font-size: 40px;
+        color: #4A4A4A;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .slider-nav {
+        display: none;
+    }
+
+    #slider {
+        width: 770px !important;
+        height: 463px;
+        margin: 0 auto;
+
+        .phone-contianer {
+            background: url('../images/iPhone6.png');
+            width: 272px;
+            height: 463px;
+            position: relative;
+            left: 20px;
+            img {
+                position: absolute;
+                z-index: 10;
+                top: 69px;
+                left: 17px;
+            }
+        }
+
+        .content {
+            position:absolute;
+            right: -20px;
+            top: 15%;
+        }
+
+        h2 {
+            font-size: 30px;
+            width: 365px;
+            color: #4A4A4A;
+            text-align: left !important;
+            background-color: transparent !important;
+            padding: 0 !important;
+            margin-bottom: 35px;
+        }
+
+        p {
+            font-size: 20px;
+            width: 300px;
+            color: #4A4A4A;
+            text-align: left !important;
+            background-color: transparent !important;
+            line-height: 1.5em !important;
+        }
+
+        .slider-2 .content {
+            top: 10%;
+        }
+
+        .slider-3 .content {
+            top: -25px;
+        }
+
+        .slider-2 img,.slider-3 img {
+            margin-left: 20px;
+        }
+    }
+
+}
+
+.apply-container {
+    background: url('../images/apply-bg.jpg') center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 496px;
+    padding-top: 130px;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .submit-box {
+        margin: 50px auto 20px;
+        button {
+            background-color: #13384F;
+
+            &:hover {
+                background-color: #0A2D3E;
+            }
+        }
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+
+#sendModal {
+    .modal-dialog, .modal-content {
+        width: 300px;
+        position: relative;
+    }
+
+    .modal-dialog {
+        margin-top: 120px;
+    }
+
+    .close {
+        width: 23px;
+        height: 23px;
+        position: absolute;
+        right: 18px;
+        top: 18px;
+        background: url('../images/close.png');
+        z-index: 10;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    img {
+        display: block;
+        width: 61px;
+        margin: 20px auto 15px;
+    }
+   
+    p {
+        font-size: 15px;
+        color: #5B5D65;
+        width: 250px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .modal-footer {
+        border-top: none;
+        padding-top: 0;
+        button {
+            display: block;
+            margin: 0 auto 10px;
+            border-radius: 5px;
+            width: 130px;
+            height: 40px;
+            line-height: 40px;
+            background-color: #0096DE;
+            color: #fff;
+            font-size: 16px;
+            padding: 0;
+        }
+    }
+}

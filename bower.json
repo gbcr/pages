@@ -1,0 +1,21 @@
+{
+  "name": "Wave",
+  "private": true,
+  "authors": [
+    "Ivan"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.1.1",
+    "modernizr": "~2.6.2",
+    "jquery": "~1.11.0",
+    "angular": "~1.2.16",
+    "angular-ui-router": "~0.2.10",
+    "angular-route": "~1.2.16",
+    "underscore": "~1.6.0",
+    "angular-animate": "~1.2.18",
+    "angular-touch": "*"
+  },
+  "devDependencies": {
+    
+  }
+}

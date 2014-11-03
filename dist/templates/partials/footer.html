@@ -1,0 +1,25 @@
+<div class="apply-container">
+    <h1 class="font-openSans-bold">Apply for Wave Beta</h1>
+    <h4 class="font-openSans-regular">Coming soon to the AppStore</h4>
+    <div class="submit-box">
+        <form name="myForm1" class="clearfix">
+            <input name='userEmail1' class="font-openSans-light" ng-pattern='/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/' type="text" placeholder="Enter your email to get Beta" ng-model="userEmail1" required>
+            <button class="font-openSans-bold" ng-disabled="myForm1.userEmail1.$invalid" ng-click="sendEmail()">Submit</button>
+        </form>
+    </div>
+    <!-- <p class="font-openSans-light">No spam. Your email address will only be used for applying for the beta.</p> -->
+    <p class="error font-openSans-light" ng-show="myForm1.userEmail1.$error.pattern">Please enter a correct email address</p>
+</div>
+<footer>
+    <div class="footer-content clearfix font-openSans-light">
+        <ul class="clearfix">
+            <li>
+                <a href="mailto:hello@waveapp.im" target="_top">Email</a></li>
+            <li>
+                <a target="_blank" href="https://www.facebook.com/waveappteam">Facebook</a>
+            </li>
+            <li><a target="_blank" href="https://twitter.com/waveappteam">Twitter</a></li>
+        </ul>
+        <div class="copywrite">&copy;Just</div>
+    </div>
+</footer>

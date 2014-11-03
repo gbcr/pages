@@ -1,0 +1,30 @@
+<!doctype html>
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+        <title>Wave</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="styles/site.css"/>
+
+        <script src="scripts/vendor/modernizr.js"></script>
+    </head>
+    <body id="ng-app" ng-app="Wave">
+        <div class="wave-container">
+            <div id="kenburns-slideshow"></div>
+            <div ng-view></div>
+            <div ng-include src="'templates/partials/footer.html'"></div>
+            <div ng-include src="'templates/partials/sendModal.html'"></div>
+        </div>
+
+        <script src="scripts/vendor.js"></script>
+
+        <script src="scripts/plugins.js"></script>
+
+        <script src="scripts/main.js"></script>
+</body>
+</html>

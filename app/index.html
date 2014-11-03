@@ -1,0 +1,52 @@
+<!doctype html>
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+        <title>Wave</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <!-- build:css({.tmp,app}) styles/site.css -->
+        <link rel="stylesheet" href="styles/site.css">
+        <!-- endbuild -->
+
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+    </head>
+    <body id="ng-app" ng-app="Wave">
+        <div class="wave-container">
+            <div id="kenburns-slideshow"></div>
+            <div ng-view></div>
+            <div ng-include src="'templates/partials/footer.html'"></div>
+            <div ng-include src="'templates/partials/sendModal.html'"></div>
+        </div>
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <script src="bower_components/underscore/underscore.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.js"></script>
+        <script src="bower_components/angular-touch/angular-touch.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js"></script>
+        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js"></script>
+        <script src="scripts/vendor/kenburns.js"></script>
+        <script src="scripts/vendor/mostslider.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <script src="scripts/controllers/index.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

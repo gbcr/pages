@@ -1,0 +1,238 @@
+/* Responsive: mobile */
+@media screen and (min-width: 320px) and (max-width : 767px) {
+    #kenburns-slideshow { 
+        height: 570px;
+    }
+    .submit-box {
+        width: 240px;
+
+        input {
+            border-radius: 4px;
+            width: 240px;
+            height: 40px;
+            padding: 0 20px;
+            font-size: 15px;
+            float: none;
+            margin-right: 0;
+            margin-bottom: 15px;
+        }
+
+        button {
+            border-radius: 4px;
+            width: 240px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 15px;
+            float: none;
+        }
+    }
+
+    .kv-container {
+        height: 570px;
+
+        .nav {
+            margin-top: 20px;
+            padding: 0 20px;
+        }
+
+        .affix.nav {
+            height: 50px;
+            
+            .nav-content {
+                width: 270px;
+                padding-top: 10px;
+            }
+        }
+
+        .kvs {
+            list-style: none;
+        }
+
+        .kv-content {
+            width: 320px;
+            margin: 0 auto;
+            padding-top: 35px;
+        }
+
+        .logo {
+            height: 26px;
+            img {
+                position: relative;
+                top: -13px;
+                margin-right: 6px;
+            }
+            span {
+                font-size: 38px;
+            }
+        }
+
+        .medias {
+            padding-top: 5px;
+
+            img {
+                opacity: 1;
+            }
+
+            .fb {
+                margin-right: 31px;
+            }
+        }
+
+        h4 {
+            font-size: 23px;
+            top: 165px;
+            left: 50%;
+            margin-left: -140px;
+            width: 300px;
+        }
+
+        p {
+            width: 280px;
+            top: 260px;
+            margin-left: -140px;
+            font-size: 15px;
+        }
+
+        .submit-box {
+            position: absolute;
+            bottom: 130px;
+            margin-left: -120px;
+            .error {
+                bottom: -50px;
+                left: 0px;
+            }
+        }
+
+        .more {
+            bottom: 15px;
+            margin-left: -42px;
+            font-size: 15px;
+
+            span {
+                margin-bottom: 10px;
+            }
+
+            img {
+                height: 12px;
+            }
+        }
+    }
+
+    .slider-wrapper{
+        padding: 20px 0 0px;
+
+        h1 {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        #slider {
+            width: 320px !important;
+            height: 490px;
+
+            .phone-contianer {
+                background-size: 100%;
+                width: 163px;
+                height: 278px;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                margin-left: -81px;
+                
+                img {
+                    position: absolute;
+                    z-index: 10;
+                    width: 143px;
+                    top: 42px;
+                    left: 91px;
+                }
+            }
+
+            #slides {
+                position: relative !important;
+                height: 100% !important;
+                >div {
+                    height: 100% !important;
+                }
+            }
+
+            #bullets {
+                right: 3%;
+
+                .bullet {
+                    min-height: 8px;
+                    min-width: 8px;
+                    border-radius: 4px;
+                }
+            }
+
+            .content {
+                position:relative !important;
+                right: 0;
+                top: 0%;
+                margin-bottom: 0px;
+            }
+
+            img {
+                display: block;
+                width: 163px;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                margin-left: -81px !important;
+            }
+
+            h2 {
+                font-size: 17px;
+                width: 210px;
+                text-align: center !important;
+                padding: 0 !important;
+                margin: 0 auto;
+            }
+
+            p {
+                font-size: 14px;
+                width: 220px;
+                margin: 20px auto 0;
+                text-align: center !important;
+            }
+
+            .slider-2 .content, .slider-3 .content {
+                margin-top: 0;
+                top: 0;
+            }
+
+            .slider-3 img {
+                bottom: 50px;
+            }
+        }
+
+    }
+
+    .apply-container {
+        background: url('../images/mobile-apply-bg.jpg');
+        width: 100%;
+        height: 350px;
+        padding-top: 65px;
+
+        h1 {
+            font-size: 20px;
+        }
+
+        h4 {
+            font-size: 15px;
+            margin-top: 20px;
+        }
+
+        .submit-box {
+            margin: 40px auto 15px;
+        }
+
+        p {
+            width: 230px;
+            margin: 0 auto;
+            font-size: 13px;
+        }
+    }
+
+}

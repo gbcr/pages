@@ -1,0 +1,63 @@
+/* KENBURNS STYLES 
+-------------------------------------------------------*/
+/*  kenburns_slideshow is the wrapper div. 
+Our list of Images scrolls inside of this frame
+To compute the minimum frame size needed:;
+image width * scale
+image height * scale
+
+if the image size is smaller than the frame size,
+gaps may appear. If image sizes are exactly the same,
+the images will fade over one another and not move. 
+*/
+#kenburns-slideshow {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 680px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+/*  The plugin wraps the images in div.kb-slide. This
+allows me to run separate animations simultaneously. */
+.kb-slide{
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+
+/* I used position relative here because IE8
+didnt like the opacity when the img was set to absolute*
+translate3d(000) kicks them into HW acceleration, and 
+backface-visibility gives some performance boosts.*/
+.kb-slide img{
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+    // position: relative;
+    // min-width: 1440px;
+    // width: 100%;
+    // height: 680px;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+
+}
+
+@-moz-document url-prefix() { 
+  .kb-slide img{
+    position: relative;
+  }
+}
