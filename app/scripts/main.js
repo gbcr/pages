@@ -14,12 +14,23 @@ angular.module('Wave', [
         otherwise({
             redirectTo: '/'
         });
-        //$locationProvider.html5Mode(true);
+        $locationProvider.html5Mode(true);
     }
-]).run(['$rootScope', '$location',
-    function($rootScope, $location) {
-        $rootScope.sendEmail = function() {
-            $('#sendModal').modal('show');
+]).run(['$rootScope', '$location', '$http',
+    function($rootScope, $location, $http) {
+        $rootScope.sendEmail = function(email) {
+            var rootUrl = $location.absUrl();
+            $http.defaults.headers.post["Content-Type"] = "application/x-www-form-urlencoded";
+            $http({
+                url: rootUrl + 'subscribe.php',
+                dataType: "json",
+                method: "POST",
+                data: {
+                    email: email
+                },
+            }).success(function(){
+                $('#sendModal').modal('show');
+            });
         }
     }
 ]);

@@ -14,23 +14,23 @@
         color: #4A4A4A;
     }
 
-    button {
-        border: none;
-        outline: none;
-        border-radius: 6px;
+    input.submitBtn {
         width: 130px;
         height: 60px;
         line-height: 60px;
         background-color: #0096DE;
         font-size: 20px;
         float: left;
+        color: #fff;
+        padding: 0;
+        margin: 0;
 
         &:hover {
             background-color: #0286C5;
         }
     }
 
-    button[disabled] {
+    input.submitBtn[disabled] {
         cursor: pointer;
     }
 }
@@ -267,7 +267,7 @@
 
     .submit-box {
         margin: 50px auto 20px;
-        button {
+        input.submitBtn {
             background-color: #13384F;
 
             &:hover {

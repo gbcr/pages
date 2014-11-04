@@ -6806,21 +6806,21 @@ footer ul li a:hover {
   margin-right: 15px;
   color: #4A4A4A;
 }
-.submit-box button {
-  border: none;
-  outline: none;
-  border-radius: 6px;
+.submit-box input.submitBtn {
   width: 130px;
   height: 60px;
   line-height: 60px;
   background-color: #0096DE;
   font-size: 20px;
   float: left;
+  color: #fff;
+  padding: 0;
+  margin: 0;
 }
-.submit-box button:hover {
+.submit-box input.submitBtn:hover {
   background-color: #0286C5;
 }
-.submit-box button[disabled] {
+.submit-box input.submitBtn[disabled] {
   cursor: pointer;
 }
 
@@ -7016,10 +7016,10 @@ footer ul li a:hover {
 .apply-container .submit-box {
   margin: 50px auto 20px;
 }
-.apply-container .submit-box button {
+.apply-container .submit-box input.submitBtn {
   background-color: #13384F;
 }
-.apply-container .submit-box button:hover {
+.apply-container .submit-box input.submitBtn:hover {
   background-color: #0A2D3E;
 }
 .apply-container p {
@@ -7093,7 +7093,7 @@ footer ul li a:hover {
     margin-right: 0;
     margin-bottom: 15px;
   }
-  .submit-box button {
+  .submit-box input.submitBtn {
     border-radius: 4px;
     width: 240px;
     height: 40px;
