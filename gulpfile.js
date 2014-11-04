@@ -62,11 +62,20 @@ gulp.task('fonts', function () {
         .pipe($.size());
 });
 
+gulp.task('phps', function () {
+    gulp.src('app/*.php')
+        .pipe(gulp.dest('dist'));
+
+    return gulp.src('app/Mailchimp/*')
+        .pipe(gulp.dest('dist/Mailchimp'))
+        .pipe($.size());
+});
+
 gulp.task('clean', function () {
     return gulp.src(['.tmp', 'dist'], { read: false }).pipe($.clean());
 });
 
-gulp.task('build', ['html', 'images', 'fonts']);
+gulp.task('build', ['html', 'images', 'fonts', 'phps']);
 
 gulp.task('default', ['clean'], function () {
     gulp.start('build');
