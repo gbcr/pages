@@ -37,15 +37,13 @@ translate3d(000) kicks them into HW acceleration, and
 backface-visibility gives some performance boosts.*/
 .kb-slide img {
   /* Set up positioning */
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   min-width: 100%;
   min-height: 100%;
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
+  -webkit-transform: none !important;
+  transform: none !important;
 }
 
 @-moz-document url-prefix() {
