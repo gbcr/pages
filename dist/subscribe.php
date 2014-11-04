@@ -1,5 +1,5 @@
 <?php
-echo phpinfo();
+phpinfo();
 // include 'Mailchimp.php';
 // $apikey = '68c9d17ced127dfb0d2a02e990b302c6-us9';
 // $api = new Mailchimp($apikey);
