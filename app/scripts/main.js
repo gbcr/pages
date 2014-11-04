@@ -37,12 +37,12 @@ angular.module('Wave', [
 
 (function($) {
     $(document).ready(function() {
-        var kvTitles = ["Simplify your inbox.<br> No clutter, just you and the message.",
-                  "Instant conversations.<br> Email that works as fast as you do.",
-                  "Connect with a person, not an address. Network right from your inbox."],
-            kvSubtitles = ["A streamlined interface that allows you to simply and easily take control of your mail and contacts",
-                          "Finally, a messaging app–style email that actually works.",
-                          "Wave brings people closer together by letting you network with people you know, and those you should know"];
+        var kvTitles = ["Email. Simplified for mobile.",
+                  "Instant email that works as fast as you do.",
+                  "Make email personal again. No clutter."],
+            kvSubtitles = ["A minimalist interface backed up by sophisticated content trimming.",
+                          "IM-style conversations allow for real-time, on-the-go chats.",
+                          "An intelligent filtering system lets you focus on the people that matter."];
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
             var imgArr = ["images/mobile-kv-1.jpg",
                 "images/mobile-kv-2.jpg",
