@@ -123,17 +123,19 @@
     h4 {
         font-family: "Lucida Grande";
         font-size: 40px;
-        //position: absolute;
-        margin: 150px auto 0;
-        //left: 50%;
-        //margin-left: -385px;
+        position: absolute;
+        top: 250px;
+        left: 50%;
+        margin-left: -450px;
         width: 900px;
     }
 
     p {
         width: 800px;
-        //position: absolute;
-        margin: 30px auto 0;
+        position: absolute;
+        top: 330px;
+        left: 50%;
+        margin-left: -400px;
         font-size: 20px;
     }
 
