@@ -14,6 +14,7 @@ lib-cov
 
 pids
 logs
+dist
 results
 
 .sass-cache
