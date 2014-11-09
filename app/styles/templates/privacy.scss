@@ -1,0 +1,55 @@
+.privacy-container {
+    max-width: 830px;
+    margin: 0 auto;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .privacy-terms {
+        float: left;
+        max-width: 580px;
+        margin-right: 100px;
+        li {
+            display: none;
+
+            &.active {
+                display: block;
+            }
+        }
+    }
+
+    .filters {
+        padding-top: 40px;
+        font-size: 16px;
+        float: right;
+
+        ul {
+            li {
+                margin-bottom: 20px;
+
+                &.active {
+                    color: #21A4DB;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    color: #21A4DB;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            .tag {
+                color: #6E7078;
+                &:hover {
+                    cursor: default;
+                }
+            }
+        }
+    }
+}

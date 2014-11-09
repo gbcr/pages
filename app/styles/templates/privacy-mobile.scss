@@ -1,0 +1,26 @@
+/* Responsive: mobile */
+@media screen and (min-width: 320px) and (max-width : 767px) {
+    .privacy-container {
+        max-width: auto;
+
+        .privacy-terms {
+            float: none;
+            max-width: none;
+            margin-right: 0px;
+        }
+
+        .filters {
+            padding-top: 0px;
+            float: none;
+
+            ul {
+                margin-bottom: 45px;
+                text-align: left;
+
+                li {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

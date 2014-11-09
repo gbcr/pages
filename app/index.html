@@ -42,10 +42,8 @@
     </head>
     <body id="ng-app" ng-app="Wave">
         <div class="wave-container">
-            <div id="kenburns-slideshow"></div>
             <div ng-view></div>
             <div ng-include src="'templates/partials/footer.html'"></div>
-            <div ng-include src="'templates/partials/sendModal.html'"></div>
         </div>
 
         <!-- build:js scripts/vendor.js -->
@@ -70,6 +68,7 @@
         <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
         <script src="scripts/controllers/index.js"></script>
+        <script src="scripts/controllers/privacy.js"></script>
         <!-- endbuild -->
         
         
