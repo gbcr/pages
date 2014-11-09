@@ -21,6 +21,9 @@ angular.module('Wave', [
             templateUrl: 'templates/pages/privacy.html',
             controller: 'privacyController'
         }).
+        when('/terms', {
+            templateUrl: 'templates/pages/terms.html'
+        }).
         otherwise({
             redirectTo: '/'
         });
