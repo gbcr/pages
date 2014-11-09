@@ -2,7 +2,7 @@
     max-width: 580px;
     margin: 0 auto;
     color: #47525D;
-    font-family: $font-family-openSans-regular;
+    font-family: "open_sanslight", "Helvetica Neue", arial, sans-serif;
     text-align: center;
     padding: 100px 0 85px;
 
@@ -12,6 +12,7 @@
 
     h3 {
         font-size: 28px;
+        margin:20px;
     }
 
     h5 {
@@ -28,5 +29,12 @@
         &:last-child {
             margin-bottom: 0;
         }
+    }
+    blockquote{
+        font-style: italic;
+        padding:0;
+        margin: 20px 0 20px;
+        font-size: 16px;
+        text-align:left;
     }
 }
