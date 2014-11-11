@@ -187,6 +187,10 @@ footer {
   .medias {
       padding-top: 5px;
 
+      div {
+        display: inline-block;
+      }
+
       img {
           opacity: 1;
       }
