@@ -15,7 +15,7 @@
     "gulp-csso": "^0.2.6",
     "gulp-filter": "^0.4.1",
     "gulp-flatten": "^0.0.2",
-    "gulp-imagemin": "^0.5.0",
+    "gulp-imagemin": "1.2.1",
     "gulp-jshint": "^1.5.3",
     "gulp-livereload": "^1.2.0",
     "gulp-load-plugins": "^0.5.0",
@@ -26,7 +26,8 @@
     "gulp": "^3.6.0",
     "jshint-stylish": "^0.1.5",
     "opn": "^0.1.1",
-    "wiredep": "^1.4.3"
+    "wiredep": "^1.4.3",
+    "connect-modrewrite": "^0.7.9"
   },
   "engines": {
     "node": ">=0.10.0"
