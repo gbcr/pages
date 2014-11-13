@@ -25,7 +25,7 @@ angular.module('Wave', [
             templateUrl: 'templates/pages/terms.html'
         }).
         otherwise({
-            redirectTo: '/'
+            templateUrl: '/404.html'
         });
         $locationProvider.html5Mode(true);
     }
