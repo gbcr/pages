@@ -1,25 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Page Not Found :(</title>
-        <!-- build:css({.tmp,app}) styles/site.css -->
-        <link rel="stylesheet" href="styles/site.css">
-        <!-- endbuild -->
-        <style type="text/css">
-        footer {
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        </style>
-    </head>
-    <body>
-        <div ng-include src="'templates/partials/header.html'"></div>
-        <div class="error-container">
-            <h3>Error (404).</h3>
-            <p>Oops. Couldn't find what you were looking for. Click [here](http://waveapp.im) to go home.</p>
-        </div>
-        <div ng-include src="'templates/partials/footer.html'"></div>
-    </body>
-</html>
+<div ng-include src="'templates/partials/header.html'"></div>
+<div class="error-container">
+    <h3>Error (404).</h3>
+    <p>Oops. Couldn't find what you were looking for. Click <a href="http://waveapp.im">[here]</a> to go home.</p>
+</div>
