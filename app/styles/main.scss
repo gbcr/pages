@@ -137,6 +137,8 @@ footer {
     .footer-content {
       width: 740px;
       margin: 0 auto;
+
+
     }
 
     .copywrite {
@@ -145,12 +147,12 @@ footer {
 
     ul {
       float: right;
+      width:100%;
       list-style: none;
       margin: 0;
       li {
         float: left;
-        margin: 0 30px;
-
+        width:24%;
         a {
           color: #fff;
           &:hover {
